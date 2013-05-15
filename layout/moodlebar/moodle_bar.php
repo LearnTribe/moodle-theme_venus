@@ -33,7 +33,7 @@ border-right: 1px solid #8B2092;
 padding:0px;
 height:32px;
 z-index:11000; /*Allow layering*/ 
-color:#000000;
+color:#ffffff;
 }
 
 /* Moodle Bar - image links*/
@@ -62,7 +62,7 @@ text-decoration: underline;
 
 #dockbottom a:hover {
 text-decoration: underline;
-color: #14FF14;
+color: #9900FF;
 }
 
 /* Moodle Bar - inner container - control background colour and add image bg if required*/
@@ -76,7 +76,7 @@ position:relative;
 overflow:visible;/*Make sure it doesnt crop the widget*/
 background-color:#C2C2C2;
 font-size: 1.1em;
-background:  #FF75FF;
+background:  #FF3399;
 }
 
 #dockbottom-inner .block-inner {

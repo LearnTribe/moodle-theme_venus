@@ -117,6 +117,47 @@ fieldset#general {
     padding:10px;
 }
 
+
+/* Table - fix for missing internal gridlines
+---------------------------------------------*/
+td {
+border-width:1px;
+}
+
+
+/* Editing Icons - make them more visible
+---------------------------------------------*/
+
+.block .header .commands .icon img{
+background-color: #F3F8ED;
+border: 2px solid #3B4C25;
+border-radius: 5px;
+height: 12px;
+margin-right: 3px;
+padding: 2px;
+width: 12px;
+}
+
+.block_action img, .block_action input{
+background-color: #F3F8ED;
+border: 2px solid #3B4C25;
+border-radius: 3px;
+height: 8px;
+margin-right: 1px;
+padding: 1px;
+width: 8px;
+}
+
+#dockeditempanel .dockeditempanel_hd .commands img, #dockeditempanel .dockeditempanel_hd .commands input{
+background-color: #F3F8ED;
+border: 2px solid #3B4C25;
+border-radius: 3px;
+height: 8px;
+margin-right: 1px;
+padding: 2px;
+width: 8px;
+}
+
 /* Course
 -------------------------------*/
 

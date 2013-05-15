@@ -41,7 +41,7 @@ echo $OUTPUT->doctype() ?>
             <div id="page-header" class="inside">
                 <div id="page-header-wrapper" class="wrapper clearfix">
 					
-			<a class="logo" title="Home" href="https://inspire.rcs.ac.uk/"><img src="<?php echo $OUTPUT->pix_url('/pix_core/logo', 'theme');?>" align="left"/></a>
+			<a class="logo" href="<?php echo $CFG->wwwroot; ?>" title="<?php print_string('home'); ?>"><img src="<?php echo $OUTPUT->pix_url('/pix_core/logo', 'theme');?>" align="left"/></a>
                     <?php if ($hasheading) { ?>
                         <h1 class="headermain"><?php echo $PAGE->heading ?></h1>
                         <div class="headermenu"><?php

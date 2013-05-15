@@ -49,7 +49,7 @@ echo $OUTPUT->doctype() ?>
                         echo $PAGE->headingmenu; ?>
 			</br><form name="form1" method="get" align="right" action="<?php echo $CFG->wwwroot.'/course/search.php' ?>" id="form1"><input type="text" size="25" name="search" id="coursesearchbox" /> <input type="submit" value="Search Modules" /></form>
                 </div>
-			<a class="logo" title="Home" href="http://inspire.rcs.ac.uk/"><img src="<?php echo $OUTPUT->pix_url('/pix_core/logo', 'theme');?>" align="left"/></a>
+			<a class="logo" href="<?php echo $CFG->wwwroot; ?>" title="<?php print_string('home'); ?>"><img src="<?php echo $OUTPUT->pix_url('/pix_core/logo', 'theme');?>" align="left"/></a>
                 <h1 class="headermain"><?php echo $PAGE->heading ?></h1>				
 				
                 <?php if ($hascustommenu) { ?>
